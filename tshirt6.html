@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoodie 01</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <div class="logo">
+            <span class="box">WHITE</span>
+            <span class="text">BLACK</span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <input type="radio" name="slider" id="slide5">
+
+            <div class="slides">
+                <div class="slide">
+                    <img src="https://cdn.jolybell.com/images/mSfcyS5t1qskhan.png?width=361&height=540&quality=90" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="https://cdn.jolybell.com/images/QGJxcK8IHCIYC63.png?width=361&height=540&quality=90" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="https://cdn.jolybell.com/images/lD12Q7CBq9GZRLp.png?width=361&height=540&quality=90" alt="Image 3">
+                </div>
+                <div class="slide">
+                    <img src="https://cdn.jolybell.com/images/55161f1oVEEfVIr.png?width=361&height=540&quality=90" alt="Image 4">
+                </div>
+                <div class="slide">
+                    <img src="https://cdn.jolybell.com/images/tPvCnd0fZ8OaY19.png?width=361&height=540&quality=90" alt="Image 5">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label for="slide1" class="nav-btn"></label>
+                <label for="slide2" class="nav-btn"></label>
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h1>T-shirt 6</h1>
+            <div class="price">34 USD</div>
+            <p class="description">
+                Oversize - is when еverything around you adapts to you. Freedom of movement, style, thoughts.
+                 Disrupt and break the boundaries of a strict silhouette. Free cut is now your calling card.
+            </p>
+            <p>Composition: 95% Cotton, 5% Spandex. Density 220 g/m²</p>
+            <div class="buttons">
+                <button class="info-btn">SIZE GRID</button>
+                <button class="info-btn">TAKING CARE OF THE ITEM</button>
+            </div>
+            <div class="sizes">
+                <p>Choose a size:</p>
+                <div class="size-grid">
+                    <input type="radio" id="size-xs" name="size" hidden>
+                    <label for="size-xs" class="size">XS</label>
+                
+                    <input type="radio" id="size-s" name="size" hidden>
+                    <label for="size-s" class="size">S</label>
+                
+                    <input type="radio" id="size-m" name="size" hidden>
+                    <label for="size-m" class="size">M</label>
+                
+                    <input type="radio" id="size-l" name="size" hidden>
+                    <label for="size-l" class="size">L</label>
+                
+                    <input type="radio" id="size-xl" name="size" hidden>
+                    <label for="size-xl" class="size">XL</label>
+                
+                    <input type="radio" id="size-2xl" name="size" hidden>
+                    <label for="size-2xl" class="size">2XL</label>
+                
+                    <input type="radio" id="size-3xl" name="size" hidden>
+                    <label for="size-3xl" class="size">3XL</label>
+                </div>
+            </div>
+            <div class="quantity-wrapper">
+                <label for="quantity" class="quantity-label">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                <button class="add-to-cart">ADD TO CART →</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="logo">
+            <span class="box">WHITE</span>
+            <span class="text">BLACK</span>
+        </div>
+    </footer>
+</body>
+</html>
