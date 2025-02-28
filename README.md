@@ -1,19 +1,7 @@
-White-Black
-Un proiect web modern care prezintă un landing page minimalist pentru un magazin online de îmbrăcăminte.
+White-Black A modern web project featuring a minimalistic landing page for an online clothing store.
 
-Funcționalități principale
-Design modern și responsiv:
-Site-ul este complet optimizat pentru toate dispozitivele, inclusiv telefoane mobile, tablete și desktopuri, folosind tehnici de layout adaptiv.
+Main Features Modern and Responsive Design: The site is fully optimized for all devices, including mobile phones, tablets and desktops, using adaptive layout techniques.
 
-Catalog de produse:
-O galerie de produse, fiecare cu:
-Imagine reprezentativă
-Preț afișat vizibil
-Titlu descriptiv
-Buton pentru detalii, ce permite navigarea spre o pagină individuală a produsului
+Product catalog: A gallery of products, each with: Representative image Visible display price Descriptive title Details button, which allows navigation to an individual product page
 
-Fiecare card de produs are un efect hover.
-O animație de overlay la deschiderea paginii.
-Culori și branding:
-Designul este dominat de un contrast alb-negru.
-
+Each product card has a hover effect. An overlay animation on opening the page. Colors and branding: The design is dominated by a black and white c
