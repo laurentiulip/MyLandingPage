@@ -65,6 +65,7 @@
     background-color: var(--header-footer-bg);
     padding: 10px 0;
     text-align: center;
+    position: relative;
   }
   
   .logo {
@@ -196,7 +197,7 @@
   }
   
   .theme-switch {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
     z-index: 10000;
