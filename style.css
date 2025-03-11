@@ -176,7 +176,7 @@
   .product-title {
     margin-top: 10px;
     font-size: 1em;
-    color: var(--txt-color:);
+    color: var(--txt-color);
     text-align: center;
     font-weight: bold;
   }
