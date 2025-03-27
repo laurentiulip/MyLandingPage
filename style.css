@@ -30,6 +30,15 @@
     box-sizing: border-box;
   }
   
+  #message {
+    margin-top: 15px;
+    padding: 10px;
+    background: #e0f4e0;
+    border: 1px solid #4CAF50;
+    color: #2c662d;
+    display: none; /* Se afișează doar când există mesaj */
+}
+  
   body {
     font-family: Arial, sans-serif;
     background-color: var(--bg-color);

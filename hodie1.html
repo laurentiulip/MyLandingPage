@@ -89,16 +89,22 @@
             <div class="quantity-wrapper">
                 <label for="quantity" class="quantity-label">Quantity:</label>
                 <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
-                <button class="add-to-cart">ADD TO CART →</button>
+                <button class="add-to-cart" onclick="addToCart()">ADD TO CART →</button>
+                <div id="message"></div>
             </div>
         </div>
     </div>
-
+    <form action="add_to_cart.php" method="post" id="cart-form">
+        <input type="hidden" name="product_name" value="Hoodie 1">
+        <input type="hidden" id="selected-size" name="size" value="">
+        <input type="hidden" id="selected-quantity" name="quantity" value="1">
+    </form>
     <footer>
         <div class="logo">
             <span class="box">WHITE</span>
             <span class="text">BLACK</span>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
