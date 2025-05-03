@@ -1,16 +1,13 @@
 async function addToCart() {
-    // 1. Obținem datele din formular
-    const productName = "Hoodie 1"; // Sau poți extrage din HTML dacă e dinamic
+    const productName = "Hoodie 1";
     const selectedSize = document.querySelector('input[name="size"]:checked');
     const quantity = document.getElementById("quantity").value;
 
-    // 2. Validare mărime
     if (!selectedSize) {
         alert("Selectează o mărime!");
         return;
     }
 
-    // 3. Trimitem datele la server cu `fetch()`
     try {
         const response = await fetch("add_to_cart.php", {
             method: "POST",
@@ -29,5 +26,4 @@ async function addToCart() {
     }
 }
 
-// Asociem funcția la buton
 document.querySelector(".add-to-cart").addEventListener("click", addToCart);

@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";  // Utilizator implicit XAMPP
-$password = "";      // Parolă implicită XAMPP (lăsată goală)
+$username = "root";
+$password = "2007";
 $dbname = "shop_db";
 
 // Conectare la baza de date
